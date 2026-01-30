@@ -1,6 +1,6 @@
 # Git internals
-.git*
-.github*
+.git/
+.github/
 
 # Python caches
 __pycache__/
