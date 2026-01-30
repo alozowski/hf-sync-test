@@ -1,0 +1,14 @@
+# Git internals
+.git*
+.github*
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Editor files
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
