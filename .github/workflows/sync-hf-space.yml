@@ -32,3 +32,4 @@ jobs:
           hf_token: ${{ secrets.HF_TOKEN }}
           repo_type: space
           space_sdk: gradio
+          subdirectory: frontend
