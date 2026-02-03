@@ -3,7 +3,7 @@ from datetime import datetime
 
 def greet(name):
     if not name:
-        return "Please enter your name! 👋"
+        return "Please enter your name!"
     return f"Hello {name}! Welcome to the updated HF Sync Test Space! 🚀✨"
 
 def reverse_text(text):
@@ -11,7 +11,7 @@ def reverse_text(text):
 
 def shake_it(text):
     if not text:
-        return "Give me something to shake! 🫨"
+        return "Give me something to shake!"
     return " ".join(reversed(text.split()))
 
 # Create a tabbed interface with multiple functions
@@ -32,7 +32,7 @@ with gr.Blocks(title="HF Sync Test - Updated!") as demo:
         reverse_btn.click(reverse_text, inputs=text_input, outputs=reverse_output)
 
     # Shake words around — reverses word order instead of characters
-    with gr.Tab("Word Shaker 🫨"):
+    with gr.Tab("Word Shaker"):
         shake_input = gr.Textbox(label="Enter a sentence", placeholder="The sync is working great")
         shake_output = gr.Textbox(label="Shaken words")
         shake_btn = gr.Button("Shake it!")
