@@ -9,7 +9,7 @@ def greet(name):
 # Create a tabbed interface with multiple functions
 with gr.Blocks(title="HF Sync Test - Updated!") as demo:
     gr.Markdown("# 🔄 Hugging Face Sync Test")
-    gr.Markdown("### Testing automatic sync from GitHub → HF Space")
+    gr.Markdown("🧪 PR #8 sync test: GitHub → Hugging Face Space")
 
     with gr.Tab("Greeting"):
         name_input = gr.Textbox(label="Enter your name", placeholder="Claude")
