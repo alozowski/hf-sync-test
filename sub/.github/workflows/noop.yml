@@ -1,0 +1,8 @@
+# Fixture: nested .github/ must never reach the Hub (covered by */.git*).
+name: noop
+on: workflow_dispatch
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "never runs"

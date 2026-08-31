@@ -1,0 +1,1 @@
+Fixture: matches no exclusion, so it MUST appear on the Hub.

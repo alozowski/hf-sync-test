@@ -1,0 +1,1 @@
+Fixture: excluded by `assets/*` even though include admits `*.txt`.
