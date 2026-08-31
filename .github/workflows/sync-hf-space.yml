@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0
       - name: Sync GitHub to Hugging Face Hub
-        uses: huggingface/hub-sync@adb7c641f493ed4ce24d319287c17e8292c73f4e
+        uses: huggingface/hub-sync@feat/user-defined-patterns
         with:
           github_repo_id: alozowski/hf-sync-test
           huggingface_repo_id: alozowski/hf-sync-test
